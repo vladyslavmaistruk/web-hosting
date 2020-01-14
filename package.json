@@ -1,0 +1,22 @@
+{
+  "name": "web-hosting",
+  "version": "1.0.1",
+  "description": "landing page",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslavmaistruk/web-hosting.git"
+  },
+  "keywords": [
+    "typesetting"
+  ],
+  "author": "vladyslav.maistruk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladyslavmaistruk/web-hosting/issues"
+  },
+  "homepage": "https://github.com/vladyslavmaistruk/web-hosting#readme"
+}
