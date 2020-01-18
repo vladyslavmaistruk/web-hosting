@@ -1,0 +1,126 @@
+.top{
+    background-color: #2e7ee7;
+    padding-top: 150px;
+    padding-bottom: 180px;
+}
+.top__inner{
+    display: flex;
+}
+.top-info{
+    max-width: 555px;
+    margin-right: 35px;
+    color: #fff;
+}
+.top-info__subtitle{
+
+}
+.top-info__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+.top-info__subtitle{
+
+}
+.top-info__description{
+    font-size: 19px;
+    line-height: 52px;
+    font-weight: 700;
+}
+.top-info__description span{
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.top-info__list{
+    margin-bottom: 50px;
+}
+.top-info__list li{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    margin-left: 30px;
+    position: relative;
+}
+.top-info__list li::before{
+    font-family: 'icomoon';
+    content: '\e903';
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: -30px;
+    top: 3px;
+    color: #000;
+}
+.top-info__list li span{
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+.top-info__list li span::after{
+    font-family: 'icomoon';
+    content: '\e902';
+    color: #000;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -8px;
+    top: -16px;
+}
+.top-info__btn{
+    color: #fff;
+    width: 225px;
+    height: 47px;
+    text-align: center;
+    padding-top: 8px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    border-radius: 25px;
+}
+.top-info__btn-description{
+    margin-top: 12px;
+    padding: 5px 2px;
+}
+.top-images{
+    padding-top: 30px;
+}
+.top-images__box{
+    position: relative;
+}
+.top-images__circle{
+    width: 230px;
+    height: 230px;
+    padding: 70px 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #212121;
+    position: absolute;
+    top: -40px;
+    right: -100px;
+}
+.top-images__circle-title{
+    
+}
+.top-images__circle-price{
+    font-weight: 700;
+    font-size: 54px;
+    padding: 20px 5px 8px 33px ;
+    position: relative;
+}
+.top-images__circle-price::before{
+    font-family: 'icomoon';
+    content:'\e900';
+    font-weight: 400;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top:18px;
+    left: 0px;
+}
+.top-images__circle-period{
+    text-align: right;
+}

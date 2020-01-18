@@ -1,4 +1,21 @@
+header{
+    border-top: 1px solid #3681e5;
+}
 .header__inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 87px;
+}
+.menu__list{
+    display: flex;
+}
+.menu__list li + li{
+    margin-left: 38px;
+}
+.menu__list a{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'OpenSans', sans-serif;
+    color: #2f3f54;
 }

@@ -1,4 +1,6 @@
 @import url("./normalize.css");
 @import url("./core.css");
+@import url("./fonts.css");
 @import url("./blocks/header.css");
+@import url("./blocks/top.css");
 @import url("./media.css");
