@@ -1,0 +1,126 @@
+.offer{
+    padding: 155px 0 120px;
+}
+.offer__top{
+
+}
+.offer__top-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    color: #2f3f54;
+    text-align: center;
+}
+.offer__top-title span{
+    color: #2575e7;
+}
+.offer__top-text{
+    text-align: center;
+    max-width: 594px;
+    margin: 35px auto 0;
+}
+.offer__top-text a{
+    color: #e74c3c;
+}
+.offer__top-text span{
+    color: #42d6c1;
+}
+.offer__items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.offer__item{
+    max-width: 360px;
+    padding: 0 40px 60px 50px;
+    box-shadow: 0 21px 49px 1px rgba(41, 44, 61, 0.15);
+    position: relative;
+}
+.offer__item-price{
+    max-width: 260px;
+    padding: 25px 75px 40px 80px;
+    background-color: #267ae9;
+    text-align: center;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 16px;
+}
+.offer__item-price span{
+    display: inline-block;
+    margin-right: 2px;
+    font-size: 22px;
+    line-height: 16px;
+}
+.offer__item-price span + span{
+    font-size: 16px;
+    line-height: 16px;
+}
+.offer__item-image{
+    margin-top: 35px;
+    text-align: center;
+}
+.offer__item-image img{
+    width: 135px;
+    height: 107px;
+}
+.offer__item-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #267ae9;
+    margin-top: 35px;
+}
+.offer__item-description{
+    margin-top: 20px;
+}
+.offer__item-list{
+    margin: 55px 0 70px;
+}
+.offer__item-list li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 35px;
+    position: relative;
+}
+.offer__item-list li + li{
+    margin-top: 12px;
+}
+.offer__item-list li::before{
+    font-family: 'icomoon';
+    content: '\ea10';
+    height: 14px;
+    position: absolute;
+    left: -30px;
+    bottom: 10px;
+
+}
+.offer__item-btn{
+    display: block;
+    background-color: #267ae9;
+    min-height: 60px;
+    max-width: 360px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
